@@ -8,8 +8,8 @@
 		<version>2.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.vaadin</groupId>
-	<artifactId>vaadin-archetype-application</artifactId>
+	<groupId>ufv.dis.final2021</groupId>
+	<artifactId>AR</artifactId>
 	<version>14.4.6</version>
 	<name>vaadin-archetype-application</name>
 	<description>vaadin-archetype-application</description>
