@@ -15,22 +15,22 @@ public class CustomerTest {
         customer2 = new Customer();
     }
 //Dato no facilitado
-    @Test
-    void getIp() {
-        assertNull(customer.getIp_from());
-        assertNull(customer.getIp_to());
+    //@Test
+    //void getIp() {
+     //   assertNull(customer.getIp_from());
+      //  assertNull(customer.getIp_to());
 
-    }
+    //}
+//
+    //@Test
+    //void getArriba() {
+    //    assertTrue(255<customer.getIp_to());
+   // }
 
-    @Test
-    void getArriba() {
-        assertTrue(255<customer.getIp_to());
-    }
-
-    @Test
-    void getAbajo() {
-        assertTrue(000<customer.getIp_from());
-    }
+    //@Test
+    //void getAbajo() {
+     //   assertTrue(000<customer.getIp_from());
+    //}
 
 
 

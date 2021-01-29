@@ -1,5 +1,6 @@
 package org.dis.ExamenFinalAR;
 
+import org.apache.catalina.util.CustomObjectInputStream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -7,6 +8,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+
+import java.util.ArrayList;
 
 @SpringBootApplication
 public class CrudWithVaadinApplication {
@@ -21,7 +24,12 @@ public class CrudWithVaadinApplication {
     public CommandLineRunner loadData(CustomerRepository repository) {
         return (args) -> {
             // save customers
-           // repository.save(new Customer("Diego", "Abad","Boadilla"));
+            ArrayList<Customer> customer=null;
+            TratamientoJson tratamientoJson=new TratamientoJson();
+            customer=tratamientoJson.leerFicheroJson();
+
+            
+            repository.save(new Customer(000, 0112,"23","45","madrd","madrid",3,2,"28","34"));
            // repository.save(new Customer("Juan", "Rodríguez","Majadahonda"));
            // repository.save(new Customer("Pedro", "Arranz","Pozuelo"));
             //repository.save(new Customer("David", "Losada","Aravaca"));
