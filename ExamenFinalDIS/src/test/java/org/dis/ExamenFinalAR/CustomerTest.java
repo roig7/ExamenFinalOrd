@@ -11,62 +11,28 @@ public class CustomerTest {
 
     @BeforeEach
     void setUp() {
-        customer = new Customer("Diego", "Abad","Boadilla");
+        customer = new Customer(192, 192,"12","madrid","madrid","madrid",12.2,12,"28","24");
         customer2 = new Customer();
     }
-
+//Dato no facilitado
     @Test
-    void getId() {
-        assertNull(customer.getId());
+    void getIp() {
+        assertNull(customer.getIp_from());
+        assertNull(customer.getIp_to());
 
     }
 
     @Test
-    void setId() {
-        customer.setId(null);
-        assertEquals(null,customer.getId());
+    void getArriba() {
+        assertTrue(255<customer.getIp_to());
     }
 
     @Test
-    void getFirstName() {
-        assertEquals("Diego", customer.getFirstName());
+    void getAbajo() {
+        assertTrue(000<customer.getIp_from());
     }
 
-    @Test
-    void getLastName() {
-        assertEquals("Abad", customer.getLastName());
-    }
 
-    @Test
-    void getPlace() {
-        assertEquals("Boadilla", customer.getPlace());
-    }
 
-    @Test
-    void setFirstName() {
-        customer.setFirstName("Diego");
-        assertEquals("Diego", customer.getFirstName());
-    }
 
-    @Test
-    void setLastName() {
-        customer.setLastName("Abad");
-        assertEquals("Abad", customer.getLastName());
-    }
-
-    @Test
-    void setPlace() {
-        customer.setPlace("Boadilla");
-        assertEquals("Boadilla", customer.getPlace());
-    }
-
-    @Test
-    void testToString() {
-        assertEquals("Customer[id=null, firstName='Diego', lastName='Abad',place='Boadilla']",customer.toString());
-    }
-
-    @Test
-    void testEquals() {
-        assertTrue(customer.equals(customer));
-    }
 }

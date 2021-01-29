@@ -88,10 +88,10 @@ public class CustomerEditor extends VerticalLayout implements KeyNotifier {
             setVisible(false);
             return;
         }
-        final boolean persisted = c.getId() != null;
+        final boolean persisted = c.getIp_from() != null;
         if (persisted) {
             // Find fresh entity for editing
-            customer = repository.findById(c.getId()).get();
+            customer = repository.findById(c.getIp_from()).get();
         }
         else {
             customer = c;

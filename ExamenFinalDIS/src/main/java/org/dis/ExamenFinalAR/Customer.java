@@ -9,59 +9,121 @@ public class Customer {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private Long ip_from;
+    private long ip_to;
+    private String country_code;
+    private String country_name;
+    private String region_name;
+    private String city_name;
+    private double latitude;
+    private double longitude;
+    private String zip_code;
+    private String time_zone;
 
-    private String firstName;
-
-    private String lastName;
-
-    private String place;
 
     protected Customer() {
     }
 
-    public Customer(String firstName, String lastName,String place) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.place = place;
+    public Customer(long ip_from,long ip_to,String country_code,String country_name,String region_name,String city_name,double latitude,double longitude,String zip_code,String time_zone) {
+        this.ip_from = ip_from;
+        this.ip_to = ip_to;
+        this.country_code = country_code;
+        this.country_name = country_name;
+        this.region_name = region_name;
+        this.city_name = city_name;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.zip_code = zip_code;
+        this.time_zone = time_zone;
+
     }
 
-    public Long getId() {
-        return id;
+    public Long getIp_from() {
+        return ip_from;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setIp_from(Long id) {
+        this.ip_from = ip_from;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public long getIp_to() {
+        return ip_to;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setIp_to(long ip_to) {
+        this.ip_to = ip_to;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getCountry_code() {
+        return country_code;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setCountry_code(String country_code) {
+        this.country_code = country_code;
     }
 
-    public String getPlace() {
-        return place;
+    public String getCountry_name() {
+        return country_name;
     }
 
-    public void setPlace(String place) {
-        this.place = place;
+    public void setCountry_name(String country_name) {
+        this.country_name = country_name;
     }
+
+
+
+    public String getRegion_name() {
+        return region_name;
+    }
+
+    public void setRegion_name(String region_name) {
+        this.region_name = region_name;
+    }
+
+    public String getCity_name() {
+        return city_name;
+    }
+
+    public void setCity_name(String city_name) {
+        this.city_name = city_name;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
+    }
+
+    public String getZip_code() {
+        return zip_code;
+    }
+
+    public void setZip_code(String zip_code) {
+        this.zip_code = zip_code;
+    }
+    public String getTime_zone() {
+        return time_zone;
+    }
+
+    public void setTime_zone(String time_zone) {
+        this.time_zone = time_zone;
+    }
+
 
     @Override
     public String toString() {
-        return String.format("Customer[id=%d, firstName='%s', lastName='%s',place='%s']", id,
-                firstName, lastName,place);
+        return String.format("Customer[ip_from=%d, ip_from='%d', country_code='%s',country_name='%s',region_name='%s',city_name='%s',latitude='%f',longitude='%f',zip_code='%s',time_zone='%s']", ip_from,
+                ip_to, country_code,country_name,region_name,city_name,latitude,longitude,zip_code,time_zone);
     }
 
 }
