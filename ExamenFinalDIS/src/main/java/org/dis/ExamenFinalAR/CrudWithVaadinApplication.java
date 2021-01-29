@@ -28,7 +28,7 @@ public class CrudWithVaadinApplication {
             TratamientoJson tratamientoJson=new TratamientoJson();
             customer=tratamientoJson.leerFicheroJson();
 
-            
+
             repository.save(new Customer(000, 0112,"23","45","madrd","madrid",3,2,"28","34"));
            // repository.save(new Customer("Juan", "Rodríguez","Majadahonda"));
            // repository.save(new Customer("Pedro", "Arranz","Pozuelo"));
