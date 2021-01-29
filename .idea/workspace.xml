@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b699db5f-66ec-497e-9251-72953bcdde11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/vaadin-archetype-application/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadin-archetype-application/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadin-archetype-application/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadin-archetype-application/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadin-archetype-application/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadin-archetype-application/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadin-archetype-application/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadin-archetype-application/src/main/java/vaadinarchetypeapplication/VaadinArchetypeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadin-archetype-application/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaadin-archetype-application/src/test/java/vaadinarchetypeapplication/VaadinArchetypeApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nknMRpjqFlx4kojaeRGV2nDqNa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CrudWithVaadinApplication">
+    <configuration name="CrudWithVaadinApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="AR" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vaadinarchetypeapplication.CrudWithVaadinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrudWithVaadinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="AR" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.dis.CrudWithVaadinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b699db5f-66ec-497e-9251-72953bcdde11" name="Default Changelist" comment="" />
+      <created>1611942907822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611942907822</updated>
+      <workItem from="1611942909085" duration="646000" />
+      <workItem from="1611943588950" duration="253000" />
+      <workItem from="1611943876758" duration="126000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1750" height="301" key="GridCell.Tab.0.bottom" timestamp="1611943569684">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="301" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1611943569684" />
+    <state width="1750" height="301" key="GridCell.Tab.0.center" timestamp="1611943569684">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="301" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1611943569684" />
+    <state width="1750" height="301" key="GridCell.Tab.0.left" timestamp="1611943569684">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="301" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1611943569684" />
+    <state width="1750" height="301" key="GridCell.Tab.0.right" timestamp="1611943569684">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="301" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1611943569684" />
+    <state x="484" y="319" key="IDE.errors.dialog" timestamp="1611943908790">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="484" y="319" key="IDE.errors.dialog/0.25.1792.1095@0.25.1792.1095" timestamp="1611943908790" />
+    <state x="434" y="231" key="Maven.ArtifactSearchDialog" timestamp="1611943295614">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="434" y="231" key="Maven.ArtifactSearchDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1611943295614" />
+  </component>
+</project>
